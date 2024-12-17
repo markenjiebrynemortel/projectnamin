@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+background-color: rgba(0, 24, 57, 0.911);
+overflow: hidden;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navdiv{
+display: flex; 
+align-items: center;
+justify-content: space-between;
+}
+.navbar a{
+color:white;
+text-decoration: none;
+padding: 10px;
+display: block;
+text-align: right;
+}
+.navbar li:hover{
+border-radius: 5px;
+background-color:rgb(17, 90, 168);
+
+}
+.logo ul {
+display: flex; 
+align-items: center;
+justify-content: space-between;
+}
+.navbar li{
+list-style: none;
+display: inline-block;
+color: white;
+font-size: 18px;
+margin-right: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-left .logo a{
+font-size:25px; 
+font-weight: 500; 
+color: rgb(255, 255, 255);
+}
+.top-left {
+width:50px;
+margin-left: 30px;
+display:flex;
+}
+button{
+background-color: rgb(75, 228, 146);
+border-radius: 5px;
+transition: .0s ease;
+}
+button:hover{
+background-color:rgb(14, 178, 6);
+}
+button a{
+color: white;
+font-weight: Bold;
+font-size: 15px;
+}
+.form-container
+{
+    padding:50px;
+    margin-left:300px;
+    margin-right:300px;
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
